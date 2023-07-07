@@ -17,10 +17,10 @@ import { themeContent } from '@/utils/Themes/themes'
 
 //const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-	title: 'Kvartiranasutki',
-	description: 'Квартиры на сутки по выгодным ценам',
-}
+// export const metadata = {
+// 	title: 'Kvartiranasutki',
+// 	description: 'Квартиры на сутки по выгодным ценам',
+// }
 
 export default function RootLayout({
 	children,
