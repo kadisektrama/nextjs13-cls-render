@@ -63,7 +63,7 @@ export const WindowMailLogin: React.FC<any> = (props) => {
             .then(
                 (result) => {
                     if (result['access_token']) {
-                        document.cookie = `token=${result['access_token']};expires=${addMonths(new Date(), 12).toUTCString()};max-age=31536000;domain=${window.location.protocol === 'https:' ? process.env.REACT_APP_DOMAIN : process.env.REACT_APP_LOCAL_DOMAIN};path=/;`;
+                        document.cookie = `token=${result['access_token']};expires=${addMonths(new Date(), 12).toUTCString()};max-age=31536000;domain=${window.location.hostname};path=/;`;
                         window.location = `${window.location.protocol}//${window.location.host}` as unknown as Location
                     } else {
                         setOpen(true);

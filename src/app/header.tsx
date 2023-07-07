@@ -69,12 +69,12 @@ export function Header() {
             .then(
                 (result) => {
                     console.log(result)
-                    document.cookie = `token=;expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=.${window.location.protocol === 'https:' ? process.env.NEXT_PUBLIC_DOMAIN : process.env.NEXT_PUBLIC_LOCAL_DOMAIN};path=/`;
+                    document.cookie = `token=;expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=.${window.location.hostname};path=/`;
                     window.location.reload();
                 },
                 (error) => {
                     console.log(error)
-                    document.cookie = `token=;expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=.${window.location.protocol === 'https:' ? process.env.NEXT_PUBLIC_DOMAIN : process.env.NEXT_PUBLIC_LOCAL_DOMAIN};path=/`;
+                    document.cookie = `token=;expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=.${window.location.hostname};path=/`;
                     window.location.reload();
                 }
             )

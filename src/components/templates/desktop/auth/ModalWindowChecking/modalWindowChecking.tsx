@@ -32,7 +32,7 @@ export const WindowChecking: React.FC<any> = (props) => {
 
         setError(false);
     };
-    console.log(state)
+    
     async function handleSubmit(event: any) {
         event.preventDefault();
         setIsDisableButton(true);
