@@ -1,0 +1,37 @@
+.clearfix:after {
+  clear: both;
+}
+
+.clear:after, .clear:before {
+  display: table;
+  content: "";
+  line-height: 1;
+}
+
+.customLink {
+  text-decoration: none;
+  color: #0071c2;
+  font-weight: bold;
+}
+
+.customLink:hover {
+  color: #bc5b01;
+}
+
+.Link {
+  text-decoration: none;
+  color: #0071c2;
+}
+
+.Link:hover {
+ color: #bc5b01;
+}
+
+.footerTopLink {
+  color: white;
+}
+
+.footerTopLink:hover {
+  color: white;
+}
+

@@ -1,0 +1,7 @@
+.content {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  grid-gap: 6vw;
+}
+
+/*# sourceMappingURL=description.module.css.map */

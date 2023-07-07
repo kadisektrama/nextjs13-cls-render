@@ -1,0 +1,25 @@
+.bottomSheet {
+  bottom: 0
+}
+
+[data-rsbs-overlay] .custom-backdrop {
+  z-index: 10;
+  overscroll-behavior: none;
+  touch-action: none;
+  position: fixed;
+  right: 0;
+  //bottom: 0;
+  left: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+[data-rsbs-header] .custom-backdrop {
+  flex-shrink: 0;
+  cursor: ns-resize;
+  padding: 20px;
+}
+
+
+

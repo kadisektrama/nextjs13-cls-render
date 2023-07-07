@@ -1,0 +1,19 @@
+.Link {
+  text-decoration: none;
+  color: #02090e;
+  font-size: 20px
+}
+
+.Link:hover {
+  color: #bc5b01;
+}
+
+.isCompany {
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: -3px;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,30 @@
+.image > div > div > div > div > div > img, .image > div > div > div > div > div > .image-gallery-image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: none;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 18px;
+  margin: auto;
+  .image-gallery-image {
+    object-fit: none;
+    color: white;
+  }
+}
+
+.imageAspectRatio {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: inherit;
+  border-radius: 18px;
+}
+
+.imageClass {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: none;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 18px;
+  margin: auto;
+}

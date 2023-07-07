@@ -1,0 +1,43 @@
+.fc-daygrid-day-number {
+    color: #000000;
+}
+
+/* override day title color and size */
+.fc-col-header-cell-cushion {
+    color: #000000;
+}
+
+.disabled {
+    background: repeating-linear-gradient(-45deg, rgb(255, 255, 255), rgb(255, 255, 255) 8px, rgb(221, 221, 221) 8px, rgb(221, 221, 221) 9px) !important;
+    color: rgb(113, 113, 113);
+    height: auto;
+}
+
+.fc-daygrid-day-top {
+    flex-direction: row !important;
+}
+
+.fc-daygrid-day-number {
+    width: 100%
+}
+
+.fc-daygrid-day-frame {
+    height: 125px
+}
+
+.fc-view-harness {
+    height: 865px
+}
+
+.fc-theme-standard {
+    height: 100% !important
+}
+
+td.fc-day-past > div.fc-daygrid-day-frame > div.fc-daygrid-day-bg > div.fc-daygrid-bg-harness > div.fc-highlight {
+    background-color: rgb(0 0 0 / 0%) !important;
+}
+
+td.fc-day-past {
+    cursor: not-allowed !important;
+}
+

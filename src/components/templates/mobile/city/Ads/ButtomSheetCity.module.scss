@@ -1,0 +1,27 @@
+:root {
+  --rsbs-bg: #fff;
+}
+
+[data-rsbs-overlay] {
+  z-index: 10;
+  overscroll-behavior: none;
+  touch-action: none;
+  position: fixed;
+  right: 0;
+  margin-bottom: -56px;
+  bottom: 56px;
+  padding-bottom: 56px;
+  left: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+[data-rsbs-header] {
+  flex-shrink: 0;
+  cursor: ns-resize;
+  padding: 20px;
+}
+
+
+

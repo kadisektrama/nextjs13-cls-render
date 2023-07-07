@@ -1,0 +1,13 @@
+.grid2Desktop1ModileColumn {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  align-items: start;
+
+  @media all and (max-width: 748px) {
+    grid-template-columns: 1fr;
+  }
+  @media all and (min-width: 748px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

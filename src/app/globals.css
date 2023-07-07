@@ -1,0 +1,119 @@
+:global {
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media all and (max-width: 728px) {
+  .b24-widget-button-popup-show {
+      display: none !important;
+  }
+
+  .b24-widget-button-position-bottom-right {
+      right: 40px !important;
+  }
+
+  .b24-widget-button-wrapper {
+      bottom: 96px !important;
+  }
+
+  .ant-radio-button-wrapper {
+      height: 30px !important;
+      padding: 0 11px !important;
+      line-height: 28px !important;
+  }
+
+  .grid-label-field {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+  }
+}
+
+@media all and (min-width: 728px) {
+  .grid-label-field {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      align-items: center;
+  }
+}
+
+.image-gallery-using-mouse {
+  display: flex;
+  align-items: center;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background-color: #14a800 !important;
+  border-color: #14a800 !important;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):before {
+  background-color: #14a800 !important;
+}
+
+.b24-widget-button-wrapper.b24-widget-button-position-bottom-right.b24-widget-button-visible {
+  z-index: 2 !important;
+}
+
+.b24-widget-button-shadow.b24-widget-button-show {
+  z-index: 1 !important;
+}
+
+.MuiTypography-captain {
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.Link {
+  text-decoration: none;
+  color: #0071c2;
+  font-size: 20px
+}
+.ant-select-selector {
+  height: 54px !important;
+  padding: 16.5px 11px 16.5px 11px !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 17px !important;
+  border-radius: 4px !important;
+  border-color: #d5d5d5 !important;
+}
+
+.ant-select-selection-search {
+  display: flex !important;
+  align-items: center !important;
+}
+.ant-select {
+  margin: 16px 0 8px 0;
+}
+.ant-select-focused {
+  border-color: #14a800 !important;
+  box-shadow: 0 0 0 2px #14a800 !important;
+  border-radius: 4px !important;
+}
+.ant-select-open {
+  border-color: #14a800 !important;
+  box-shadow: 0 0 0 2px #14a800 !important;
+  border-radius: 4px !important;
+}
+.fc-toolbar-title:first-letter {
+  text-transform: uppercase;
+}
+
+.rdrWeekDay {
+  text-transform: uppercase;
+}
+
+.rdrMonthPicker > select {
+  text-transform: capitalize;
+}
+
+.rdrMonthName {
+  text-transform: capitalize;
+}
