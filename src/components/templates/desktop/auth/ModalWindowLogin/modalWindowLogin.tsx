@@ -60,7 +60,8 @@ export const WindowLogin: React.FC<any> = (props) => {
             .then(
                 (result) => {
                     if (result['access_token']) {
-                        document.cookie = `token=${result['access_token']};expires=${addMonths(new Date(), 12).toUTCString()};max-age=31536000;domain=${window.location.protocol === 'https:' ? process.env.NEXT_PUBLIC_DOMAIN : process.env.NEXT_PUBLIC_LOCAL_DOMAIN};path=/;`;
+                        console.log(`token=${result['access_token']};expires=${addMonths(new Date(), 12).toUTCString()};max-age=31536000;domain=${window.location.origin};path=/;`)
+                        document.cookie = `token=${result['access_token']};expires=${addMonths(new Date(), 12).toUTCString()};max-age=31536000;domain=${window.location.origin};path=/;`;
                         window.location = `${window.location.protocol}//${window.location.host}` as unknown as Location
                     } else {
                         setOpen(true);
