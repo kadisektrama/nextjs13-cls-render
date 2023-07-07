@@ -40,7 +40,7 @@ export function Header() {
     const dispatch = useAppDispatch()
     const [anchorEl, setAnchorEl] = useState<any>(null);
     const open = Boolean(anchorEl);
-    const token = useState(Cookies.get('token'))
+    const [token, setToken] = useState(Cookies.get('token'))
     const pathname = usePathname()
 
     useEffect(() => {
